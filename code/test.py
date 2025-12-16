@@ -17,5 +17,5 @@ def test_setbalance():
 
 def test_setbalance():
     obj = Wallet(0)
-    obj.set_balance(10)
-    assert obj.get_balance() == 10
+    obj.set_balance(100)
+    assert obj.get_balance() == 100 
